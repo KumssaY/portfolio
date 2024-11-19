@@ -1,0 +1,20 @@
+.profile-image {
+  width: 450px; /* Adjust the size as needed */
+  height: 450px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-image {
+    width: 275px;
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-image {
+    width: auto;
+    height: 46vw;
+  }
+}

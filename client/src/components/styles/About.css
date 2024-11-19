@@ -1,0 +1,20 @@
+.about-pic {
+  width: 450px;
+  height: 300px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media screen and (max-width: 1200px) {
+  .about-pic {
+    width: 275px;
+    height: 183px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-pic {
+    width: auto;
+    height: 46vw;
+  }
+}
