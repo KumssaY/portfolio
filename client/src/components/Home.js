@@ -6,7 +6,7 @@ import "./styles/Home.css"; // Import the new CSS file
 import profilePic from "../assets/profile-pic.jpg";
 import linkedinIcon from "../assets/linkedin.png";
 import githubIcon from "../assets/github.png";
-import resume from "../assets/Nehemiah Yoseph Kumssa Resume.pdf";
+import resume from "../assets/NehemiahYKumssaResume.pdf";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="btn-container">
-            <a href={'#resume'} className="btn btn-color-2" download="Resume">
+            <a href={resume} className="btn btn-color-2" download="Resume">
               Download CV
             </a>
             <a href="#contact" className="btn btn-color-1">
