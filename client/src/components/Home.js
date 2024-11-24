@@ -6,7 +6,7 @@ import "./styles/Home.css"; // Import the new CSS file
 import profilePic from "../assets/profile-pic.jpg";
 import linkedinIcon from "../assets/linkedin.png";
 import githubIcon from "../assets/github.png";
-//import resume from "../assets/resume-example.pdf";
+import resume from "../assets/Nehemiah Yoseph Kumssa Resume.pdf";
 
 const Home = () => {
   return (
