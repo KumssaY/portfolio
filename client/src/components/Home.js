@@ -25,7 +25,8 @@ const Home = () => {
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
           <h1 className="title">Nehemiah Kumssa</h1>
-          <p className="section__text__p2">Data Scientist/ML Engineer</p>
+          <p className="section__text__p2">Aspiring Data Scientist/ML Engineer</p>
+          <p className="section__text__p2">Web Developer/Backend Engineer</p>
 
           {/* Buttons */}
           <div className="btn-container">
